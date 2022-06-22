@@ -19,7 +19,10 @@ The model significantly outperforms APACHE II (AUC 0.64) and SOFA (0.6) scores o
 
 | Part     | Technology       |
 |----------|------------------|
-| Backend | Python + xgboost |
+| Backend | Python + xgboost | 
+
+Notes on additional required packages:```scikit-learn``` is a dependency of xgboost; 
+```pandas``` is used for Python-specific, convenient data processing.
 
 <!---| Deployment |                  |
 -->
